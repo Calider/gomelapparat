@@ -1,0 +1,13 @@
+E:\Кодинг\Разработка\Сканер пропусков\PropuskScaner\bin\Debug\PropuskScaner.exe.config
+E:\Кодинг\Разработка\Сканер пропусков\PropuskScaner\bin\Debug\PropuskScaner.exe
+E:\Кодинг\Разработка\Сканер пропусков\PropuskScaner\bin\Debug\PropuskScaner.pdb
+E:\Кодинг\Разработка\Сканер пропусков\PropuskScaner\bin\Debug\Guna.UI2.dll
+E:\Кодинг\Разработка\Сканер пропусков\PropuskScaner\obj\Debug\PropuskScaner.csproj.AssemblyReference.cache
+E:\Кодинг\Разработка\Сканер пропусков\PropuskScaner\obj\Debug\PropuskScaner.csproj.SuggestedBindingRedirects.cache
+E:\Кодинг\Разработка\Сканер пропусков\PropuskScaner\obj\Debug\PropuskScaner.Form1.resources
+E:\Кодинг\Разработка\Сканер пропусков\PropuskScaner\obj\Debug\PropuskScaner.Properties.Resources.resources
+E:\Кодинг\Разработка\Сканер пропусков\PropuskScaner\obj\Debug\PropuskScaner.csproj.GenerateResource.cache
+E:\Кодинг\Разработка\Сканер пропусков\PropuskScaner\obj\Debug\PropuskScaner.csproj.CoreCompileInputs.cache
+E:\Кодинг\Разработка\Сканер пропусков\PropuskScaner\obj\Debug\PropuskScaner.csproj.CopyComplete
+E:\Кодинг\Разработка\Сканер пропусков\PropuskScaner\obj\Debug\PropuskScaner.exe
+E:\Кодинг\Разработка\Сканер пропусков\PropuskScaner\obj\Debug\PropuskScaner.pdb
