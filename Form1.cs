@@ -44,5 +44,29 @@ namespace PropuskScaner
             }
 
         }
+
+        async void guna2Button2_Click(object sender, EventArgs e)
+        {
+            using (SqlConnection conn = new SqlConnection(connString))
+            {
+
+                conn.Open();
+                SqlCommand myCommand = new SqlCommand($"SELECT count(*) FROM UsersNow Where Login = '{loginTb.Text.Trim()}' and Password = '{passTb.Text.Trim()}';", conn);
+                SqlDataReader dr = await myCommand.ExecuteReaderAsync();
+                await dr.ReadAsync();
+                int a = Convert.ToInt32(dr[0]);
+                if (a == 1)
+                {
+                    Message.Show("Успех");
+                    conn.Close();
+                }
+                else
+                {
+                    conn.Close();
+                    MessageBox.Show("Пользователя не существует, либо введен неверный логин или пароль", "Ошибка");
+                }
+
+            }
+        }
     }
 }

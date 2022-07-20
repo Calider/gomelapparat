@@ -39,8 +39,15 @@
             this.guna2ControlBox4 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.loginTb = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            this.passTb = new Guna.UI2.WinForms.Guna2TextBox();
+            this.Message = new Guna.UI2.WinForms.Guna2MessageDialog();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).BeginInit();
+            this.guna2Panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2BorderlessForm1
@@ -127,7 +134,7 @@
             this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
             this.guna2DataGridView1.EnableHeadersVisualStyles = false;
             this.guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.Location = new System.Drawing.Point(117, 126);
+            this.guna2DataGridView1.Location = new System.Drawing.Point(12, 39);
             this.guna2DataGridView1.Name = "guna2DataGridView1";
             this.guna2DataGridView1.RowHeadersVisible = false;
             this.guna2DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
@@ -155,11 +162,96 @@
             this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             // 
+            // guna2Panel2
+            // 
+            this.guna2Panel2.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.guna2Panel2.Controls.Add(this.label1);
+            this.guna2Panel2.Controls.Add(this.loginTb);
+            this.guna2Panel2.Controls.Add(this.guna2Button2);
+            this.guna2Panel2.Controls.Add(this.passTb);
+            this.guna2Panel2.Location = new System.Drawing.Point(463, 250);
+            this.guna2Panel2.Name = "guna2Panel2";
+            this.guna2Panel2.Size = new System.Drawing.Size(238, 193);
+            this.guna2Panel2.TabIndex = 7;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.label1.Location = new System.Drawing.Point(15, 36);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(78, 15);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Авторизация";
+            // 
+            // loginTb
+            // 
+            this.loginTb.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.loginTb.DefaultText = "";
+            this.loginTb.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.loginTb.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.loginTb.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.loginTb.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.loginTb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.loginTb.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.loginTb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.loginTb.Location = new System.Drawing.Point(18, 54);
+            this.loginTb.Name = "loginTb";
+            this.loginTb.PasswordChar = '\0';
+            this.loginTb.PlaceholderText = "";
+            this.loginTb.SelectedText = "";
+            this.loginTb.Size = new System.Drawing.Size(200, 36);
+            this.loginTb.TabIndex = 3;
+            // 
+            // guna2Button2
+            // 
+            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button2.ForeColor = System.Drawing.Color.White;
+            this.guna2Button2.Location = new System.Drawing.Point(18, 138);
+            this.guna2Button2.Name = "guna2Button2";
+            this.guna2Button2.Size = new System.Drawing.Size(200, 35);
+            this.guna2Button2.TabIndex = 5;
+            this.guna2Button2.Text = "Попробовать";
+            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
+            // 
+            // passTb
+            // 
+            this.passTb.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.passTb.DefaultText = "";
+            this.passTb.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.passTb.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.passTb.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.passTb.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.passTb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.passTb.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.passTb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.passTb.Location = new System.Drawing.Point(18, 96);
+            this.passTb.Name = "passTb";
+            this.passTb.PasswordChar = '\0';
+            this.passTb.PlaceholderText = "";
+            this.passTb.SelectedText = "";
+            this.passTb.Size = new System.Drawing.Size(200, 36);
+            this.passTb.TabIndex = 4;
+            // 
+            // Message
+            // 
+            this.Message.Buttons = Guna.UI2.WinForms.MessageDialogButtons.OK;
+            this.Message.Caption = null;
+            this.Message.Icon = Guna.UI2.WinForms.MessageDialogIcon.None;
+            this.Message.Parent = null;
+            this.Message.Style = Guna.UI2.WinForms.MessageDialogStyle.Default;
+            this.Message.Text = null;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(723, 465);
+            this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.guna2DataGridView1);
             this.Controls.Add(this.guna2Panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -168,6 +260,8 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.guna2Panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).EndInit();
+            this.guna2Panel2.ResumeLayout(false);
+            this.guna2Panel2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -181,6 +275,12 @@
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox4;
         private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
         private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView1;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
+        private System.Windows.Forms.Label label1;
+        private Guna.UI2.WinForms.Guna2TextBox loginTb;
+        private Guna.UI2.WinForms.Guna2Button guna2Button2;
+        private Guna.UI2.WinForms.Guna2TextBox passTb;
+        private Guna.UI2.WinForms.Guna2MessageDialog Message;
     }
 }
 
