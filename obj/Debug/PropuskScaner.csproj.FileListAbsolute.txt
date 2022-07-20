@@ -11,3 +11,16 @@ E:\Кодинг\Разработка\Сканер пропусков\PropuskScan
 E:\Кодинг\Разработка\Сканер пропусков\PropuskScaner\obj\Debug\PropuskScaner.csproj.CopyComplete
 E:\Кодинг\Разработка\Сканер пропусков\PropuskScaner\obj\Debug\PropuskScaner.exe
 E:\Кодинг\Разработка\Сканер пропусков\PropuskScaner\obj\Debug\PropuskScaner.pdb
+C:\Users\hurbatov\source\repos\Calider\gomelapparat\bin\Debug\PropuskScaner.exe.config
+C:\Users\hurbatov\source\repos\Calider\gomelapparat\bin\Debug\PropuskScaner.exe
+C:\Users\hurbatov\source\repos\Calider\gomelapparat\bin\Debug\PropuskScaner.pdb
+C:\Users\hurbatov\source\repos\Calider\gomelapparat\bin\Debug\Guna.UI2.dll
+C:\Users\hurbatov\source\repos\Calider\gomelapparat\obj\Debug\PropuskScaner.csproj.AssemblyReference.cache
+C:\Users\hurbatov\source\repos\Calider\gomelapparat\obj\Debug\PropuskScaner.csproj.SuggestedBindingRedirects.cache
+C:\Users\hurbatov\source\repos\Calider\gomelapparat\obj\Debug\PropuskScaner.Form1.resources
+C:\Users\hurbatov\source\repos\Calider\gomelapparat\obj\Debug\PropuskScaner.Properties.Resources.resources
+C:\Users\hurbatov\source\repos\Calider\gomelapparat\obj\Debug\PropuskScaner.csproj.GenerateResource.cache
+C:\Users\hurbatov\source\repos\Calider\gomelapparat\obj\Debug\PropuskScaner.csproj.CoreCompileInputs.cache
+C:\Users\hurbatov\source\repos\Calider\gomelapparat\obj\Debug\PropuskScaner.csproj.CopyComplete
+C:\Users\hurbatov\source\repos\Calider\gomelapparat\obj\Debug\PropuskScaner.exe
+C:\Users\hurbatov\source\repos\Calider\gomelapparat\obj\Debug\PropuskScaner.pdb
